@@ -5,13 +5,7 @@ let numStr: string = '';
 let numStrArr: string[] = [''];
 let operand: string;
 let calculated: boolean = false;
-    /*declare the following variables and types
-    num1 as number
-    num2 as number
-    operand as string
     
-    Figure out how to set the values of num1 and num2 as the buttons are clicked
-    */
 const calc: HTMLElement | null = document.getElementById('calc');
 if (calc) {
     calc.addEventListener('click',(evt)=>{
