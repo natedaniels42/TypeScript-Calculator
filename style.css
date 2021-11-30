@@ -9,7 +9,7 @@
     background-color: rgba(33, 107, 219, .7);
     padding: 10px;
     border-radius: 10px;
-    box-shadow: 10px 10px 5px grey;
+    box-shadow: 10px 10px 5px grey, inset -5px -5px 5px rgba(33, 107, 219, .7);
     transform: perspective(300px) rotateX(25deg) rotate(0deg);
 }
 
