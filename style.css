@@ -13,6 +13,11 @@
     transform: perspective(300px) rotateX(25deg) rotate(0deg);
 }
 
+.container:hover {
+    transform: none;
+    transition: 2s transform;
+}
+
 .row{
     display:flex;
     align-items: center;
